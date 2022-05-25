@@ -1,11 +1,7 @@
 name: Unit Test Project
 on:
   push:
-    paths:
-      - '**.ts'
   pull_request:
-    paths:
-      - '**.ts'
 jobs:
   unit_test:
     strategy:
